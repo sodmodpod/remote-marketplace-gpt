@@ -4,8 +4,10 @@
   "plugins": [{
     "name": "soulstice",
     "source": {
-      "source": "local",
-      "path": "./plugins/soulstice"
+      "source": "git-subdir",
+      "url": "https://github.com/sodmodpod/remote-marketplace-gpt.git",
+      "path": "./plugins/soulstice",
+      "ref": "main"
     },
     "policy": {
       "installation": "AVAILABLE",
