@@ -1,0 +1,13 @@
+{
+  "name": "soulstice",
+  "version": "0.1.0",
+  "description": "Run the Soulstice reflective questioning skill.",
+  "author": { "name": "Eduard" },
+  "interface": {
+    "displayName": "Soulstice",
+    "brandColor": "#111111",
+    "composerIcon": "./assets/soulstice-icon.png",
+    "logo": "./assets/soulstice-icon.png"
+  },
+  "skills": ["./skills/soulstice"]
+}
